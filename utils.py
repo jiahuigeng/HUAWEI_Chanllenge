@@ -1,19 +1,4 @@
-import numpy as np
 import os
-import pandas as pd
-
-data_dir = '../data'
-# def load_flavors(filename):
-#     file = os.path.join(data_dir, filename)
-#     assert os.path.isfile(file)
-#     n_cores, n_mem = {}, {}
-#     with open(file) as f:
-#         for line in f:
-#             data = line.rstrip().split()
-#             n_cores[data[0]] = int(data[1])
-#             n_mem[data[0]] = int(data[2])
-#     return n_cores, n_mem
-
 import matplotlib.pyplot as plt
 
 def load_input(filename):
